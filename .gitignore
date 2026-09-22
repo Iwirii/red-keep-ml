@@ -1,0 +1,14 @@
+# Игнорируем виртуальные окружения
+venv/
+env/
+.env
+
+# Игнорируем кэш Python и Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Специфичное для ОС
+.DS_Store
+Thumbs.db
